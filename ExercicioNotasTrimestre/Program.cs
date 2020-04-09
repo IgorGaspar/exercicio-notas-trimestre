@@ -5,6 +5,11 @@ namespace ExercicioNotasTrimestre {
     class Program {
         static void Main(string[] args) {
 
+            /* Programa que solicita ao usuário entrar com os dados
+             * do aluno, as notas do mesmo, realiza o cálculo da
+             * média das notas do aluno e retorna se ele foi aprovado
+             * ou reprovado neste ano. */
+
             Aluno aluno = new Aluno();
 
             Console.Write("Nome do aluno: ");
